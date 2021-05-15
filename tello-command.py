@@ -5,7 +5,7 @@ sock.bind(("", 9000))
 
 while True:
     try:
-        msg = input("")
+        msg = input("Enter a command: ")
         if not msg:
             break
         if "end" in msg:
