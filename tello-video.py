@@ -1,3 +1,11 @@
+"""
+When connected to a Tello drone's wifi, 
+after `command` and `streamon` commands have been executed, 
+this script can be used to view the streaming video, notably, 
+at a delay, which is said to not be an issue with the actual data transmission,
+but rather with the viewer.
+"""
+
 import socket
 import cv2
 
