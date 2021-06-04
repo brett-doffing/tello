@@ -1,3 +1,5 @@
+![](https://github.com/doffing81/tello/blob/main/tello_network.png)
+
 ### iptables commands for Raspberry Pi(s) to enable a network transmission model for recording video with a Tello drone swarm.
 
 `sudo iptables -t nat PREROUTING -s 192.168.1.100 -i eth0 -j DNAT --to-destination 192.168.10.1`
